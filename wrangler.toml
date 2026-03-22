@@ -1,0 +1,11 @@
+name = "prowlarr-telegram-worker"
+main = "src/index.ts"
+compatibility_date = "2026-02-13"
+
+[vars]
+PROWLARR_URL = "https://your-prowlarr.example.com"
+TELEGRAM_ALLOWED_USER_IDS = "1065340939"
+
+[[kv_namespaces]]
+binding = "SEARCH_CACHE"
+id = "cefcc0f941a54b76af2dd60bf5d993a2"
